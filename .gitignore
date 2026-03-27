@@ -1,0 +1,67 @@
+# ===========================
+# ROOT MONOREPO .gitignore
+# ===========================
+
+# ---- Environment / Secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.mobileprovision
+
+# ---- Node / JS ----
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+package-lock.json
+
+# ---- Expo / React Native ----
+.expo/
+web-build/
+expo-env.d.ts
+*.tsbuildinfo
+.metro-health-check*
+/ios
+/android
+app-example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+*.log
+chat_history/
+feedback_data.json
+
+# ---- Blockchain / Hardhat ----
+artifacts-zk/
+cache-zk/
+artifacts/
+cache/
+
+# ---- macOS / OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/
+
+# ---- Backup files ----
+*_backup.tsx
+*_backup*.tsx
+*_cadangan.tsx
+promo_backup*
+bayar_backup*

@@ -1,0 +1,49 @@
+{
+  "name": "warungtech-api",
+  "version": "2.0.0",
+  "description": "Complete WarungTech API with Store Management, Payments, Investments, and AI Integration",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build completed'",
+    "vercel-build": "echo 'Vercel build completed'",
+    "lint": "echo \"No lint configured\"",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "warungtech",
+    "store-management",
+    "midtrans",
+    "payment-gateway",
+    "qris",
+    "gopay",
+    "shopeepay",
+    "express",
+    "nodejs",
+    "api",
+    "postgresql",
+    "jwt",
+    "bcrypt",
+    "investment",
+    "wallet"
+  ],
+  "author": "Gabriel Panjaitan",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "midtrans-client": "^1.4.4",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

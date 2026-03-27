@@ -1,0 +1,27 @@
+# ---- Secrets ----
+.env
+.env.*
+!.env.example
+src/.env
+*.pem
+*.key
+
+# ---- Dependencies ----
+node_modules/
+src/node_modules/
+
+# ---- Build ----
+dist/
+build/
+
+# ---- Debug / Test artifacts ----
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
